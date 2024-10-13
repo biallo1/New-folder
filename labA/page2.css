@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -16,7 +17,6 @@ header {
     background-color: #444;
     color: #fff;
     padding: 40px;
-    text-align: center;
     border-bottom: 5px solid #888;
 }
 
@@ -45,10 +45,10 @@ main h3 {
 
 main p {
     margin-bottom: 30px;
-    text-align: justify;
 }
 
 ul {
+    list-style-position: inside;
     list-style-type: square;
     padding-left: 40px;
     margin-bottom: 30px;
@@ -70,7 +70,6 @@ footer {
     background-color: #444;
     color: #fff;
     padding: 40px;
-    text-align: center;
     border-top: 5px solid #888;
 }
 
