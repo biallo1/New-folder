@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <p id="locationCoords">my coordinates: latitude, longitude</p>
+    </div>
+
+    <div id="display"> 
+        <div id="map"></div>
+        <canvas id="rasterMap"></canvas>
+    </div>
+    
+
+    <button id="getLocation">Get Current Location</button>
+    <button id="saveButton">Save Raster Map</button>
+    <button id="puzzleButton" style="display:none;">Puzzle</button>
+
+    <div id="puzzle-grid" style="display: flex; margin-top: 20px;">
+        <div id="puzzle-tiles"></div>
+        <div id="puzzle-target" style="display: flex; flex-direction: column;"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+#map {
+    width: 600px;
+    height: 240px;
+    border: 1px solid black;
+}
+
+#rasterMap {
+    width: 600px;
+    height: 240px;
+    border: 1px solid black;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#rasterMap {
+    margin-left: 10px;
+}
+
